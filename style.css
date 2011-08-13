@@ -1,0 +1,272 @@
+/* RESET */
+
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+  font-style: inherit;
+  font-weight: inherit; }
+
+del, ins {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: baseline; }
+
+sub {
+  vertical-align: baseline; }
+
+legend {
+  color: #000; }
+
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit; }
+
+input, button, textarea, select {
+  *font-size: 100%; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* MAIN*/
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 62.5%;
+  background-color: white;
+  color: black;
+  -webkit-font-smoothing: antialiased; }
+ 
+ .bold {
+	font-weight: bold;
+}
+
+.page p {
+	margin-bottom: 21px;
+}
+.main {
+	width: 992px;
+	margin: 0 auto;
+}
+
+	.page {
+		margin-left: 166px;
+		margin-top: 160px;
+	}
+	
+		.page a {
+			color: #00af13;
+			text-decoration:none;
+		}
+		
+			.page a:hover {
+				text-decoration: underline;
+			}
+		
+			
+		
+		.page h1 {
+			font-size: 30px;
+			margin: 0 0 18px 0;
+		}
+		
+		
+			.page h2 {
+				font-size: 18px;
+				margin-bottom: 20px;
+			}
+		
+/*CONTENT*/
+
+		.contentTight {
+			width: 542px;
+			overflow: hidden;
+		}
+		
+		.announceTop {	
+			color: #6a6b6a;
+			font-size: 16px;
+			line-height: 22px;
+			width: 498px;
+		}
+		
+		.announceNot {
+			font-size: 14px;
+			line-height: 20px;
+			margin-bottom: -14px;
+		}
+		
+		.announceNotMoreImage {
+			background-image: url('img/NO.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+			font-size: 12px;
+			line-height: 18px;
+		}
+		
+			.announceNotMoreImage p {
+				white-space: pre;
+			}
+			
+		.announceNotMoreImageLeft {
+			width: 283px;
+			float: left;
+		}
+		
+		.announceNotMoreImageRight {
+			width: 228px;
+		}
+		
+		.kraftwerk {
+			background-image: url('img/kraftwerk.jpg');
+			background-color: black;
+			height: 131px;
+			width: 535px;
+			margin-bottom: 2px;
+			margin-top:32px;
+		}
+		
+			.kraftwerkText {
+				color: white;
+				font-style: italic;
+				font-size: 13px;
+				width: 245px;
+				text-align: right;
+				margin-left: 58px;
+				display: inline-block;
+				margin-top:16px;
+				line-height: 18px;
+			}
+		
+		
+		.contentWide {
+			margin-top: 30px;
+			width: 736px;
+		}
+		
+		span.numberAnnounce {
+			font-size: 48px;
+			font-weight: bold;
+			position: absolute;
+			margin-left: -34px;
+			margin-top: -10px;
+		}
+		
+		.contentWideSection {
+				border-top: 1px solid #cbcbcb;
+				overflow: hidden;
+				padding-top: 14px;
+				margin-top: 5px;
+			}
+			
+			.contentWideLeft {
+				width: 270px;
+				float:left;
+				margin-right: 15px;
+			}
+			
+			.contentWideRight {
+				width: 256px;
+				float: left;
+			}
+			
+				.contentWide p, .editorialOfficeContacts p {
+					font-size: 12px;
+					line-height: 18px;
+				}
+			
+				.contentWide h3 {
+					font-size: 14px;
+					font-weight: bold;
+					margin-bottom:6px;
+				}
+
+				.page a.violet {
+					color: #b32fd3;
+				}
+				
+				.page a.grey {
+					color: #999999;
+				}
+				
+				.page a.yellow {
+					color: #f4cb00;
+				}
+				
+				.page a.blue {
+					color: #0037f8;
+				}
+				
+				.page a.red {
+					color: #ff1000;
+				}
+				
+				.page a.blue-green {
+					color: #00dfe4;
+				}
+				
+				.page a.bright-green {
+					color: #00c80c;
+				}
+				
+			
+			
+			.contentWideTip {
+				float: right;
+				width: 156px;
+			}
+			
+			.contentWideTipText {
+				float:left;
+			}
+			
+		.editorialOfficeContacts {
+			padding-bottom: 23px;
+			overflow: hidden;
+			margin-top: 28px;
+		}
+		
+			.editorialOfficeContactsWoman {
+				float: left;
+			}
+			
+			.editorialOfficeContactsText {
+				float: left;
+				margin-left: 8px;
+				margin-top: 16px;
+			}
+			
+			
